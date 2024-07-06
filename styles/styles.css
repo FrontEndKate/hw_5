@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Poller One';
+    src: url(https://fonts.gstatic.com/s/pollerone/v23/ahccv82n0TN3gia5E4BuR-5RgGa6q0o.woff2) format('woff2');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poller One', cursive;
+    background: url("imgs/sky.jpg") fixed;
+    color: #eedb00;
+}
+header, footer {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+nav li, .button {
+    background: rgba(204, 3, 35, 0.5);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: url("imgs/cursor_st_1.png"), pointer;
+
+}
+.main_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left, .right {
+    width: 48%;
+}
+.left img, .right img {
+    width: 95%;
+    box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+.farGalaxy {
+    font-size: 1.5em;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    padding: 20px;
+}
+.red {
+    color: rgba(204, 3, 35, 0.7);
+}
+.dreamTeam {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dreamTeam img {
+    width: 30%;
+}
+.email {
+    font-size: 1.2em;
+    color: black;
+    font-variant: small-caps;
+}
